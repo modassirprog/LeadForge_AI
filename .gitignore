@@ -1,0 +1,142 @@
+# ============================================================================
+# LeadForge AI — Root .gitignore
+# Prepared for first public GitHub upload.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# 1. Environment files & secrets (NEVER commit actual .env / credentials)
+# ----------------------------------------------------------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.production.local
+.env.development.local
+.env.test.local
+*.env
+
+# Allow sanitized example templates to remain trackable.
+!**.env.example
+
+# Credentials, keys, certificates, and service-account files.
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.credential
+*service-account*
+*credentials*
+google-credentials.json
+
+# ----------------------------------------------------------------------------
+# 2. Next.js / Node.js
+# ----------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+dist/
+build/
+.turbo/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# ----------------------------------------------------------------------------
+# 3. Python / FastAPI
+# ----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / packaging
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.egg-info/
+*.eggs/
+*.egg
+dist/
+build/
+*.mo
+*.pot
+.hypothesis/
+
+# ----------------------------------------------------------------------------
+# 4. Databases & runtime data (local SQLite, journals, generated exports)
+# ----------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite-journal
+leadforge.db
+
+# Generated PDF / chart exports
+output_pdf/
+test_plot.png
+
+# ----------------------------------------------------------------------------
+# 5. IDE & operating system
+# ----------------------------------------------------------------------------
+# OS
+.DS_Store
+Thumbs.db
+*.lnk
+
+# VS Code local state (keep shared settings.json trackable; ignore workspace/user state)
+.vscode/*.code-workspace
+.vscode/launch.json
+.vscode/.gitignore
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ----------------------------------------------------------------------------
+# 6. Logs & temporary files
+# ----------------------------------------------------------------------------
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# ----------------------------------------------------------------------------
+# 7. Kilo AI / coding-assistant local state
+# ----------------------------------------------------------------------------
+# Kilo internal session state (do not commit local agent-manager/session data)
+.kilo/.gitignore
+.kilo/agent-manager.json
+agent-manager.json
+
+# Preserve intentional shared project-level Kilo config.
+!.kilo/kilo.jsonc
+
+# ----------------------------------------------------------------------------
+# 8. Misc generated / temporary
+# ----------------------------------------------------------------------------
+*.DS_Store
+._*
