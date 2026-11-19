@@ -6,6 +6,14 @@ An AI-powered lead discovery and business intelligence platform for web developm
 
 Discover local businesses with missing or broken websites, audit their digital presence, identify opportunities, and generate personalized outreach.
 
+<p align="center">
+  <img src="images/Home_Page.png" alt="LeadForge AI Home Page" width="700" />
+</p>
+
+<p align="center">
+  <em>Figure 1: LeadForge AI home page — live radar and lead discovery interface.</em>
+</p>
+
 ---
 ## 🛠️ Tech Stack
 
@@ -50,7 +58,23 @@ Discover local businesses with missing or broken websites, audit their digital p
 - **Lead CRM** — Manage prospects, track statuses, and export lead data.
 - **Analytics Dashboard** — Monitor leads, conversion progress, and AI usage.
 
+<p align="center">
+  <img src="images/AI_Pitch.png" alt="AI Pitch Generator" width="700" />
+</p>
+
+<p align="center">
+  <em>Figure 3: AI Outreach Studio — generate personalized, evidence-based sales emails for each lead.</em>
+</p>
+
 ## ⚙️ How It Works
+
+<p align="center">
+  <img src="images/Finding_Lead.png" alt="Finding Leads" width="700" />
+</p>
+
+<p align="center">
+  <em>Figure 2: Geographic lead discovery — scan a city and radius to surface businesses with digital gaps.</em>
+</p>
 
 1. Select a target location.
 2. Discover local businesses.
