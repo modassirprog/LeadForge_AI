@@ -84,19 +84,6 @@ Discover local businesses with missing or broken websites, audit their digital p
 6. Generate personalized outreach drafts.
 7. Review and manage leads through the CRM.
 
-## 📺 Live Demo
-
-<p align="center">
-  <a href="https://leadforge.agency.com" target="_blank">
-    <img src="https://img.shields.io/badge/Hosted_Demo-LeadForge_AI-blue?style=for-the-badge&logo=googlechrome" alt="Hosted Demo" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://youtu.be/example-demo-gif" target="_blank">
-    <img src="https://img.shields.io/badge/Demo_GIF-Watch_on_YouTube-red?style=for-the-badge&logo=youtube" alt="Demo GIF" />
-  </a>
-</p>
-
-> **Note:** Replace the links above with your actual hosted demo URL and demo GIF once deployed.
 
 ## 🧠 Opportunity Scoring
 
@@ -206,28 +193,6 @@ LeadForge_AI/
 - Domain MX checks do not guarantee mailbox existence.
 - Users are responsible for applicable privacy and outreach laws.
 
-## 📊 Case Study: "Pune Dental Clinic" — From Zero Website to First Client
-
-**The Problem:**  
-A multi-specialty dental clinic in Pune, India, had a 4.8-star Google rating with 320 reviews but **no website**. Patients booked via WhatsApp only, and the clinic was losing direct booking revenue to aggregator platforms charging 15–20% commission.
-
-**How LeadForge AI Helped:**
-1. **Discovery:** Surface the clinic via OpenStreetMap + Google Places scan of "dental clinics in Pune."
-2. **Audit:** Flagged `NO_WEBSITE` status, missing SSL, and no mobile viewport — a 35/35 website deficit score.
-3. **Scoring:** Commercial viability 25/30 (320 reviews, 4.8★), contact accessibility 15/15 (public email found on Google Business), agency fit 15/15 (high-ticket healthcare). **Total: 90/100 — high urgency.**
-4. **Outreach:** Generated a personalized, evidence-based pitch via OpenRouter referencing the missing booking engine and mobile responsiveness gap. Human-reviewed and sent via Gmail API.
-
-**Result:**  
-The agency secured a discovery call within 48 hours and closed a ₹45,000 website + booking system project in week two.
-
-**Key Metrics:**
-- Leads discovered: 147 clinics in Pune
-- High-urgency leads (score ≥ 80): 23
-- Emails sent: 23 (human-approved)
-- Replies: 6 (26% reply rate)
-- Clients converted: 2 in the first month
-
----
 
 ## 🗺️ Roadmap
 
