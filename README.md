@@ -97,20 +97,6 @@ Each lead receives a score out of 100:
 | Agency Fit | 15 |
 | **Total** | **100** |
 
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js, TypeScript |
-| UI | Tailwind CSS, shadcn/ui |
-| Backend | Python, FastAPI |
-| Database | PostgreSQL / SQLite |
-| ORM | SQLAlchemy |
-| AI | OpenRouter |
-| Discovery | OpenStreetMap, Google Places |
-| Website Analysis | BeautifulSoup, PageSpeed Insights |
-| Background Jobs | Redis, ARQ |
-
 ## 🚀 Getting Started
 
 ### Prerequisites
